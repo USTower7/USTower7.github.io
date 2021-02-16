@@ -992,7 +992,7 @@ body {
     /*width: 43%;*/
     max-width: 500px;
     width: 100%;
-    margin-top: 30px;
+    margin: 30px 10px 0 10px;
   }
   .desing-two__subtitle {
     color: #0066cc;
@@ -1131,5 +1131,40 @@ body {
     max-width: 500px;
     width: 100%;
     margin: 20px 10px;
+  }
+  .people-comments__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .people-comments__item {
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    margin: 0 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .people-comments__logo {
+    max-width: 350px;
+  }
+  .people-comments__logo-col {
+    width: 50%;
+    text-align: center;
   }
 }
