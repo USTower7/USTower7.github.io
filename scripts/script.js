@@ -1,11 +1,8 @@
-
-
 document.querySelector('#play').onclick = play;
 document.querySelector('#pause').onclick = pause;
 
 let video = document.querySelector('#video-player');
 let display;
-
 
 function play() {
 	video.play();
@@ -13,12 +10,6 @@ function play() {
 function pause() {
 	video.pause();
 }
-
-
-
-
-
-
 
 $(document).ready(function(){
 	$('.play').click(function(event){

@@ -37,6 +37,10 @@ body {
 .color-red {
 	color: #ff6d6d;
 }
+/* ~~~~~~~~~~~~~~~~~~~~~*/
+
+/* Header-start */
+
 .header {
 	display: block;
 	width: 100%;
@@ -169,6 +173,11 @@ body {
 		}
 	}
 }
+
+/* Header-end */
+
+/* desing-start */
+
 .design {
 	display: flex;
 	width: 100%;
@@ -226,6 +235,10 @@ body {
 	}
 }
 
+/* desing-end */
+
+/* items-start */
+
 .items {
 	display: block;
 	width: 100%;
@@ -282,6 +295,11 @@ body {
 		@extend %content-text;
 	}
 }
+
+/* items-end */
+
+/* desing-two-start */
+
 .desing-two:after {
 	content: "";
 	display: block;
@@ -289,7 +307,6 @@ body {
 	height: 1150px;
 	position: absolute;
 	left: 0;
-	/*bottom: -84%;*/
 	bottom: -500px;
 	background: #fb8686;
 	transform: rotate(-45deg);
@@ -322,7 +339,6 @@ body {
 	}
 
 	&__content {
-		/*width: 43%;*/
 		max-width: 500px;
 		width: 100%;
 		margin-top: 30px;
@@ -341,6 +357,11 @@ body {
 		@extend %content-text;
 	}
 }
+
+/* desing-two-end */
+
+/* people-comments-start */
+
 .people-comments {
 	width: 100%;
 	height: auto;
@@ -407,6 +428,11 @@ body {
 		opacity: 0.35;
 	}
 }
+
+/* people-comments-end */
+
+/* blok-info-start */
+
 .blok-info {
 	background: #f6f5f3;
 
@@ -452,6 +478,11 @@ body {
 		}
 	}
 }
+
+/* blok-info-end */
+
+/* registration-user-start */
+
 .registration-user {
 	display: block;
 	width: 100%;
@@ -576,6 +607,12 @@ body {
 		}
 	}
 }
+
+/* registration-user-end */
+
+
+/* footer-start */
+
 .footer {
 	width: 100%;
 	height: auto;
@@ -619,13 +656,6 @@ body {
 		width: 100%;
 		padding: 0 0px;
 	}
-
-	/*&__logo {
-	}
-
-	&__adress {
-	}*/
-
 	&__support {
 		display: block;
 		max-width: 130px;
@@ -720,6 +750,8 @@ body {
 	z-index: -5;
 }
 
+/* footer-start-end */
+
 @media screen and (max-width: 1200px) {
 	.registration-user__notify {
 		display: none;
@@ -801,7 +833,6 @@ body {
 		}
 
 		&__content {
-			/*width: 43%;*/
 			max-width: 500px;
 			width: 100%;
 			margin: 30px 10px 0 10px;
@@ -870,14 +901,13 @@ body {
 		justify-content: center;
 		max-height: 100vh;
 		height: 100%;
-		background: url("../images/bg-app.jpg") no-repeat center center;
+		background: url("../images/layers.jpg") no-repeat center center;
 		background-size: cover;
 		&__title {
 			max-width: 450px;
 			font-size: 35px;
 			line-height: 45px;
 		}
-
 		&__inner {
 			display: none;
 		}
@@ -895,7 +925,6 @@ body {
 			top: 50%;
 			padding: 30px 0;
 		}
-
 		&__btn {
 			width: 130px;
 			height: 40px;

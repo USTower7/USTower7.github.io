@@ -92,6 +92,8 @@ body {
   color: #ff6d6d;
 }
 
+/* ~~~~~~~~~~~~~~~~~~~~~*/
+/* Header-start */
 .header {
   display: block;
   width: 100%;
@@ -241,6 +243,8 @@ body {
   right: 30%;
 }
 
+/* Header-end */
+/* desing-start */
 .design {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -306,6 +310,8 @@ body {
           transform: rotate(51deg);
 }
 
+/* desing-end */
+/* items-start */
 .items {
   display: block;
   width: 100%;
@@ -369,6 +375,8 @@ body {
   line-height: 1;
 }
 
+/* items-end */
+/* desing-two-start */
 .desing-two:after {
   content: "";
   display: block;
@@ -376,7 +384,6 @@ body {
   height: 1150px;
   position: absolute;
   left: 0;
-  /*bottom: -84%;*/
   bottom: -500px;
   background: #fb8686;
   -webkit-transform: rotate(-45deg);
@@ -418,7 +425,6 @@ body {
 }
 
 .desing-two__content {
-  /*width: 43%;*/
   max-width: 500px;
   width: 100%;
   margin-top: 30px;
@@ -428,6 +434,8 @@ body {
   margin-bottom: 36px;
 }
 
+/* desing-two-end */
+/* people-comments-start */
 .people-comments {
   width: 100%;
   height: auto;
@@ -508,6 +516,8 @@ body {
   opacity: 0.35;
 }
 
+/* people-comments-end */
+/* blok-info-start */
 .blok-info {
   background: #f6f5f3;
 }
@@ -555,6 +565,8 @@ body {
   max-width: 100%;
 }
 
+/* blok-info-end */
+/* registration-user-start */
 .registration-user {
   display: block;
   width: 100%;
@@ -722,16 +734,13 @@ body {
   text-decoration: underline;
 }
 
+/* registration-user-end */
+/* footer-start */
 .footer {
   width: 100%;
   height: auto;
   overflow: hidden;
   position: relative;
-  /*&__logo {
-	}
-
-	&__adress {
-	}*/
 }
 
 .footer p {
@@ -906,6 +915,7 @@ body {
   z-index: -5;
 }
 
+/* footer-start-end */
 @media screen and (max-width: 1200px) {
   .registration-user__notify {
     display: none;
@@ -985,7 +995,6 @@ body {
     display: none;
   }
   .desing-two__content {
-    /*width: 43%;*/
     max-width: 500px;
     width: 100%;
     margin: 30px 10px 0 10px;
@@ -1081,7 +1090,7 @@ body {
             justify-content: center;
     max-height: 100vh;
     height: 100%;
-    background: url("../images/bg-app.jpg") no-repeat center center;
+    background: url("../images/layers.jpg") no-repeat center center;
     background-size: cover;
   }
   .header__title {
