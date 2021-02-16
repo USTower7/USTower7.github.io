@@ -41,11 +41,9 @@ body {
 	display: block;
 	width: 100%;
 	max-height: 100vh;
-	height: auto;
 	position: relative;
 
 	&__inner {
-		max-height: 100vh;
 		overflow: hidden;
 	}
 	&__media {
@@ -61,7 +59,7 @@ body {
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: url("images/layers.jpg") no-repeat center center;
+		background: url("..//images/layers.jpg") no-repeat center center;
 		background-size: cover;
 	}
 	&__body {
@@ -175,11 +173,11 @@ body {
 	display: flex;
 	width: 100%;
 	height: auto;
+	background: #fff;
 
 	&__container-info {
 		display: flex;
 		justify-content: center;
-		align-items: center;
 		width: 60%;
 	}
 
@@ -868,39 +866,42 @@ body {
 }
 @media screen and (max-width: 576px) {
 	.header {
-		display: block;
+		display: flex;
+		justify-content: center;
+		max-height: 100vh;
+		height: 100%;
 		background: url("../images/bg-app.jpg") no-repeat center center;
 		background-size: cover;
 		&__title {
-			max-width: 350px;
-			font-size: 25px;
+			max-width: 450px;
+			font-size: 35px;
 			line-height: 45px;
 		}
 
-		&__nor {
-		}
 		&__inner {
 			display: none;
 		}
-
-		&__body {
+		&__media {
+			visibility: hidden;
+		}
+		&__cola {
 			display: flex;
-			width: 100%;
-			height: 100%;
 			flex-direction: column;
+			max-height: 100vh;
 			justify-content: center;
-			align-items: center;
-			position: relative;
-			z-index: 1;
+		}
+		&__body {
+			position: static;
+			top: 50%;
 			padding: 30px 0;
 		}
 
 		&__btn {
-			width: 100px;
-			height: 30px;
+			width: 130px;
+			height: 40px;
 			font-size: 14px;
-			margin: 15px 0 15px 0;
-			line-height: 2;
+			margin: 20px 0 20px 0;
+			line-height: 2.8;
 		}
 		&__play {
 			display: none;
