@@ -26,7 +26,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
-  overflow: hidden;
 }
 
 ol, ul {
@@ -1002,7 +1001,7 @@ body {
     color: #0066cc;
   }
   .people-comments__row {
-    margin: 0 -15px;
+    margin: 0;
   }
   .people-comments__item {
     padding: 0 10px;
@@ -1131,7 +1130,10 @@ body {
   .items__inner-list {
     max-width: 500px;
     width: 100%;
-    margin: 20px 10px;
+    margin: 0;
+    padding: 20px 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
   .people-comments__row {
     display: -webkit-box;
