@@ -303,11 +303,11 @@ body {
 .desing-two:after {
 	content: "";
 	display: block;
-	width: 500px;
+	width: 600px;
 	height: 1150px;
 	position: absolute;
-	left: 0;
-	bottom: -500px;
+	left: -200px;
+	bottom: -400px;
 	background: #fb8686;
 	transform: rotate(-45deg);
 	z-index: -5;
@@ -965,7 +965,7 @@ body {
 		max-width: 500px;
 		width: 100%;
 		text-align: center;
-		margin: 0 10px;
+		margin: 30px 10px 0 10px;
 		box-sizing: border-box;
 	}
 	.people-comments__logo {

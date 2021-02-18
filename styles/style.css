@@ -380,11 +380,11 @@ body {
 .desing-two:after {
   content: "";
   display: block;
-  width: 500px;
+  width: 600px;
   height: 1150px;
   position: absolute;
-  left: 0;
-  bottom: -500px;
+  left: -200px;
+  bottom: -400px;
   background: #fb8686;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -1172,7 +1172,7 @@ body {
     max-width: 500px;
     width: 100%;
     text-align: center;
-    margin: 0 10px;
+    margin: 30px 10px 0 10px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
