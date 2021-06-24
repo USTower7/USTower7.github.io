@@ -13,6 +13,7 @@ $font-stack-text: 400 16px "Cormorant SC", serif;
 }*/
 body {
     font: $font-stack-text;
+    /*overflow-x: hidden;*/
 }
 header {
     width: 100%;
@@ -322,27 +323,13 @@ header {
     margin-bottom: 40px;
 }
 
-/*.portfolio {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -1rem;
-}
-.portfolio__col {
-    flex-basis: 33.333%;
-    padding: 1rem;
-    box-sizing: border-box;
-
-    img {
-        width: 100%;
-        max-width: 370px;
-        height: 282px;
-    }
-}*/
 
 .works__columns {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -1rem;
+    box-sizing: border-box;
+    margin-bottom: 100px;
 }
 .works__item {
     position: relative;
@@ -567,6 +554,115 @@ header {
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    .works__columns {
+        justify-content: space-between;
+        max-width: 770px;
+        margin: 0 auto;
+        padding: 0 1rem;
+        margin-bottom: 100px;
+    }
+    .works__item {
+        flex-basis: 50%;
+        max-width: 370px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
     body.active {
         overflow-y: hidden;
@@ -655,4 +751,40 @@ header {
             }
         }
     }
+
+
+
+
+    .works__columns {
+        justify-content: center;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 0 0rem;
+        margin-bottom: 100px;
+    }
+    .works__item {
+        flex-basis: 100%;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
