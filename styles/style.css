@@ -806,6 +806,9 @@ header {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
+  .my-skill__column {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -829,5 +832,17 @@ header {
   .header-main__btns-two {
     padding: 15px;
     font-size: 16px;
+  }
+  .my-skill__list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 70px;
+  }
+  .my-skill__column {
+    margin: 0;
+    padding: 0;
+    -ms-flex-preferred-size: 80%;
+        flex-basis: 80%;
   }
 }

@@ -776,6 +776,24 @@ header {
 
 
 
+
+
+    
+    .my-skill__column {
+        width: 50%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -818,6 +836,18 @@ header {
     }
 
 
+
+
+    .my-skill__list {
+        justify-content: center;
+        margin-top: 70px;
+
+    }
+    .my-skill__column {
+        margin: 0;
+        padding: 0;
+        flex-basis: 80%;
+    }
 
 
 
