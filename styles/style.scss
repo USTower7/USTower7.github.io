@@ -676,6 +676,7 @@ header {
         cursor: pointer;
         position: relative;
         z-index: 2;
+        right: 15px;
     }
     .burger {
         position: relative;
@@ -796,7 +797,7 @@ header {
     }
     .hgroup {
         h1 {
-            font-size: 36px;
+            font-size: 42px;
             line-height: 22px;
         }
         h3 {
