@@ -23,7 +23,7 @@
                     <ul>
                         <li><a href="#home">home</a></li>
                         <li><a href="#about">about</a></li>
-                        <li><a href="#about">service</a></li>
+                        <li><a href="#skill-info">service</a></li>
                         <li><a href="#works">portfolio</a></li>
                         <li><a href="#contact">contact</a></li>
                     </ul>
@@ -35,8 +35,8 @@
                     <h3>Front-end Developer</h3>
                 </hgroup>
                 <div class="header-main__btns">
-                    <a href="" class="header-main__btns-one">here me</a>
-                    <a href="" class="header-main__btns-two">explore more</a>
+                    <a href="#about" class="header-main__btns-one">here me</a>
+                    <a href="#works" class="header-main__btns-two">explore more</a>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@
                         Привет! Я <b>Фейтулла</b>, Front-end developer.Человек, который любит свое дело и выполняет его
                         качественно и быстро. Мне нравится создавать сайты,делать их необычными, функциональными. Если
                         вас заинтересовало моё портфолио, то я открыт к предложениям и проектам</p>
-                    <a href="" class="about__btn">download my cv</a>
+                    <a href="#!" class="about__btn">download my cv</a>
                 </div>
             </div>
         </section>
@@ -89,9 +89,9 @@
                 </div>
             </div>
         </section>
-        <section class="skill-info" id="skill-info">
+        <section class="skill-info">
             <div class="container">
-                <div class="skill-info__block">
+                <div class="skill-info__block" id="skill-info">
                     <h2 class="skill-info__title title-style">what i do</h2>
                     <div class="skill-info__item">
                         <object type="image/svg+xml" data="images/computer.svg" class="skill-info__item-icon">
@@ -175,7 +175,8 @@
             <div class="container">
                 <h2 class="contact__title title-style">contact</h2>
                 <div class="contact__form">
-                    <form action="">
+                    <form method="POST"
+                    action="https://formfor.site/send/fuqL4rcNNrhEM0gyQRJ9w2Qf7n0hZP">
                         <div class="contact__user-info">
                             <input type="text" class="contact__name form-style" placeholder="Name">
                             <input type="email" class="contact__email form-style" placeholder="E-mail">
@@ -185,7 +186,11 @@
                                 placeholder="Message"></textarea>
                         </div>
                         <div class="contact__coontainer-btn">
-                            <button class="contact__btn">hire me <i class="far fa-paper-plane"></i></button>
+                            <button class="contact__btn" title="Форма работает. Можете отправить мне сообщения">hire me <i class="far fa-paper-plane"></i>
+                            <svg>
+                                <rect></rect>
+                            </svg>
+                            </button>
                         </div>
                     </form>
                 </div>
